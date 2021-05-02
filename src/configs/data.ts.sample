@@ -1,0 +1,63 @@
+export default {
+  baseInfo: {
+    name: '姓名',
+    sex: '性别',
+    age: '年龄',
+    city: '城市',
+    job_position: '职位',
+    mobile: '手机号',
+    email: '邮箱',
+    github: '个人Github地址',
+  },
+  otherInfo: [
+    {
+      type: 'WorkExperience',
+      title: '工作经历',
+      data: [
+        {
+          company: 'A公司',
+          position: '职位',
+          time: ['XXXX年XX月', 'XXXX年XX月'],
+          jobs: [
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+          ],
+        },
+        {
+          company: 'B公司',
+          position: '职位',
+          time: ['XXXX年XX月', 'XXXX年XX月'],
+          jobs: [
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+            'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+          ],
+        },
+        {
+          company: 'C公司',
+          position: '职位',
+          time: ['XXXX年XX月', 'XXXX年XX月'],
+          jobs: ['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'],
+        },
+      ],
+    },
+    {
+      type: 'ProfessionalSkill',
+      title: '专业技能',
+      data: ['前端：A, B, C、D', '后端：A, B, C、D', '工具：A, B, C、D', '其他：A, B, C、D'],
+    },
+    {
+      type: 'EducationalExperience',
+      title: '教育经历',
+      data: [
+        {
+          school: 'XX大学（专业）',
+          time: ['XXXX年XX月', 'XXXX年XX月'],
+        },
+      ],
+    },
+  ],
+}
