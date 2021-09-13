@@ -18,3 +18,11 @@ yarn generate
 ```
 yarn dev
 ```
+
+### 修改数据
+
+打开 /src/configs/data.ts 文件，修改自己的简历数据。
+
+### 保存为PDF
+
+利用 Chrome 浏览器的打印功能，目标打印机设置为 “另存PDF” 即可。
